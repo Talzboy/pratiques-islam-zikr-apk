@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#7a3b1d">
+<title>Les Pratiques de l'Islam et du Zikr</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="top">
+  <button id="btnGrid" aria-label="Pages">☰</button>
+  <div id="title">Pratiques de l'Islam et du Zikr</div>
+  <button id="btnBook" aria-label="Marque-page">☆</button>
+  <button id="btnTheme" aria-label="Thème">◐</button>
+</header>
+
+<main id="viewer">
+  <div id="stage"><img id="page" alt="" draggable="false"></div>
+</main>
+
+<footer id="bottom">
+  <button id="prev" aria-label="Précédent">‹</button>
+  <input id="slider" type="range" min="1" value="1">
+  <span id="counter"><input id="jump" type="number" min="1" inputmode="numeric"> / <span id="total"></span></span>
+  <button id="next" aria-label="Suivant">›</button>
+</footer>
+
+<section id="panel" hidden>
+  <div class="tabs">
+    <button data-tab="toc" class="on">Sommaire</button>
+    <button data-tab="all">Pages</button>
+    <button data-tab="marks">Marque-pages</button>
+    <button id="close">✕</button>
+  </div>
+  <div id="grid"></div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "appId": "com.mourtalla.zikr",
+  "appName": "Pratiques de l'Islam et du Zikr",
+  "webDir": "www",
+  "android": { "backgroundColor": "#2b1a10" }
+}
